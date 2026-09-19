@@ -1,2 +1,2 @@
-<img width="2881" height="2160" alt="image" src="https://github.com/user-attachments/assets/2118d127-ffdb-4584-9bc2-2a4f51a97294" />
-<div align="right"><sup><i>Central Business District, Pittsburgh, PA, USA</i></sup></div>
+<img width="2825" height="2119" alt="image" src="https://github.com/user-attachments/assets/838b7c74-9229-4e06-9ce6-d2d588ca51e8" />
+<div align="right"><sup><i>Oakland, Pittsburgh, PA, USA</i></sup></div>
