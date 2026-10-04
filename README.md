@@ -1,2 +1,2 @@
-<img width="3840" height="2160" alt="image" src="https://github.com/user-attachments/assets/567ff24f-ac58-4e42-b2cb-75f6ad2d6c5f" />
-<div align="right"><sup><i>NoHo, Manhattan, NY, USA</i></sup></div>
+<img width="2160" height="2160" alt="image" src="https://github.com/user-attachments/assets/534302d6-d508-45fe-8858-81a9cf15a0a2" />
+<div align="right"><sup><i>Oakland, Pittsburgh, PA, USA</i></sup></div>
