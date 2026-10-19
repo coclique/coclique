@@ -1,0 +1,21 @@
+{
+  "name": "coclique",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "bun build.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.3",
+    "@types/node": "^24.19.2",
+    "@types/yargs": "^17.0.35",
+    "dedent": "^1.7.2",
+    "lefthook": "^2.2.2",
+    "prettier": "^3.9.10",
+    "remeda": "^2.52.0",
+    "sharp": "^0.35.5",
+    "typescript": "^6.0.3",
+    "yargs": "^18.2.0"
+  },
+  "packageManager": "pnpm@12.14.0+sha512.c18ba6d87993d3d164cb5e8948f32b2c06ee854487e06cd8d86781342fb3e5bb4634367034711e86802baa9c37bea906ce1929ad08d70884c97d801df13389a6"
+}
