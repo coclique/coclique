@@ -7,6 +7,8 @@ import dedent from 'dedent'
 import yargs from 'yargs'
 import { $ } from 'bun'
 
+const targetFormat = '.webp'
+
 const args = await yargs(process.argv.slice(2)).parse()
 const stage = !!args['stage']
 
@@ -15,10 +17,10 @@ const listImages = stage
   : async () => (await Fs.readdir(Path.resolve('images'))).map(filename => `images/${filename}`)
 
 const filesToRecompress = (await listImages())
-  .filter(pathspec => Path.extname(pathspec) !== '.avif')
+  .filter(pathspec => Path.extname(pathspec) !== targetFormat)
   .map(pathspec => ({
     from: pathspec,
-    to: pathspec.slice(0, -Path.extname(pathspec).length) + '.avif',
+    to: pathspec.slice(0, -Path.extname(pathspec).length) + targetFormat,
   }))
 
 let processed = 0

@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build": "bun build.ts"
+    "build": "bun build.ts",
+    "postinstall": "npm explore sharp -- npm run build"
   },
   "devDependencies": {
     "@types/bun": "^1.4.3",
@@ -11,6 +12,8 @@
     "@types/yargs": "^17.0.35",
     "dedent": "^1.7.2",
     "lefthook": "^2.2.2",
+    "node-addon-api": "^8.9.2",
+    "node-gyp": "^13.1.0",
     "prettier": "^3.9.10",
     "remeda": "^2.52.0",
     "sharp": "^0.35.5",

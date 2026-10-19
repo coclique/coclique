@@ -3,4 +3,4 @@ glob_matcher: doublestar
 pre-commit:
   jobs:
     - name: Build
-      run: pnpm build --stage
+      run: npm run build -- --stage
