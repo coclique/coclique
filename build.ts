@@ -82,6 +82,7 @@ if (filesAfterRecompress.length === 0) {
 }
 
 const useFile = filesAfterRecompress[0]
+const prevFile = filesAfterRecompress[1] ?? '/images/'
 const metadata = await sharp(Path.resolve(useFile.pathspec)).metadata()
 
 await Fs.writeFile(
@@ -89,7 +90,7 @@ await Fs.writeFile(
   dedent`
     <div>
       <img width="${metadata.width}" height="${metadata.height}" alt="urban landscape" src="${useFile.pathspec}">
-      <div align="right"><sup><i>${useFile.description}</i></sup></div>
+      <div align="right"><sup>(<a href="${prevFile.pathspec}">Prev</a>) · <i>${useFile.description}</i></sup></div>
     </div>\n
   `,
 )
